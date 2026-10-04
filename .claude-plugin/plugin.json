@@ -1,6 +1,6 @@
 {
   "name": "pr",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Take a finished branch through to a merged GitHub pull request — verify, self-review, open, work the review, merge. Use when asked to open, update, or merge a PR.",
   "author": {
     "name": "guillempuche",
