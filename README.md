@@ -1,6 +1,6 @@
 # ai-skill-pr
 
-Turn a finished change into a reviewable, mergeable pull request. Use when asked to "open a PR", "create a pull request", "raise a PR", "PR this", or "send it for review". Drives the whole lifecycle — re-baseline on the default branch, verify end-to-end with visual proof for UI work, self-review for pattern drift and AI-code smells, commit, run the verification gates, write the PR body in a house style, work the review loop, and merge by rebase or squash. Portable across repositories — gates, CI shape, worktree handling, and companion skills are read from the repo's own config or inferred, never hardcoded. Stops at merge; deploying is a separate step.
+Take a finished branch through to a merged GitHub pull request — verify, self-review, open, work the review, merge. Use when asked to open, update, or merge a PR.
 
 ## Install
 
