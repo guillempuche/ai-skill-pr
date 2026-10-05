@@ -4,6 +4,16 @@ Take a finished branch through to a merged GitHub pull request — verify, self-
 
 ## Install
 
+### Any agent
+
+The [`skills`](https://github.com/vercel-labs/skills) CLI installs into Codex, OpenCode, Gemini CLI, Cursor, Copilot, Claude Code, and 70+ other agents:
+
+```bash
+npx skills add guillempuche/ai-skill-pr
+```
+
+### Claude Code
+
 ```bash
 # Add marketplace (uses repo slug)
 /plugin marketplace add guillempuche/ai-skill-pr
@@ -11,6 +21,16 @@ Take a finished branch through to a merged GitHub pull request — verify, self-
 # Install plugin (plugin name is topic-only)
 /plugin install pr@guillempuche-ai-skill-pr
 ```
+
+### Gemini CLI
+
+```bash
+gemini skills install https://github.com/guillempuche/ai-skill-pr.git --path skills/pr
+```
+
+### Manual
+
+Copy `skills/pr` into `.agents/skills/` (Codex, Gemini CLI, OpenCode, Mastra Code, Cursor, Copilot) or `.claude/skills/` (Claude Code).
 
 ## Part of AI Standards
 
