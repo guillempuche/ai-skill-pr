@@ -1,0 +1,21 @@
+{
+  "name": "ai-skill-pr",
+  "interface": {
+    "displayName": "ai-skill-pr"
+  },
+  "plugins": [
+    {
+      "name": "pr",
+      "description": "Take a finished branch through to a merged GitHub pull request — verify, self-review, open, work the review, merge. Use when asked to \"open a PR\", \"raise a PR\", \"PR this\", \"send it for review\", or to update or merge a PR.",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
