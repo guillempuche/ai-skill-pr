@@ -45,6 +45,10 @@ agy plugin install https://github.com/guillempuche/ai-skill-pr
 
 Copy `skills/pr` into `.agents/skills/` (Codex, Gemini CLI, OpenCode, Mastra Code, Cursor, Copilot) or `.claude/skills/` (Claude Code).
 
+## Requirements
+
+See [REQUIREMENTS.md](./REQUIREMENTS.md) for setup instructions.
+
 ## Part of AI Standards
 
 This skill is also available in the [ai-standards](https://github.com/guillempuche/ai-standards) bundle with other skills and agents.
